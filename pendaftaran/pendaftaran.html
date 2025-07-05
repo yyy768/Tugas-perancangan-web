@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar - TerraWira</title>
+    <link rel="stylesheet" href="pendaftaran.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="../beranda/beranda.html" class="logo">TerraWira</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="../beranda/beranda.html">Beranda</a></li>
+          <li><a href="#" class="btn">Masuk</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="form-container">
+        <div class="page-header" style="margin-bottom: 2rem">
+          <h1>Bergabung Menjadi TerraWira</h1>
+          <p>Buat akun Anda dan mulailah perjalanan melindungi bumi.</p>
+        </div>
+
+        <form id="register-form" novalidate>
+          <div class="form-group">
+            <label for="full-name">Nama Lengkap</label>
+            <input type="text" id="full-name" name="full-name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Kata Sandi (min. 8 karakter)</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+
+          <div class="form-group">
+            <label for="confirm-password">Konfirmasi Kata Sandi</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              required
+            />
+          </div>
+
+          <button type="submit" class="btn" style="width: 100%">
+            Daftar Sekarang
+          </button>
+        </form>
+
+        <p class="form-footer-link">
+          Sudah punya akun? <a href="#">Masuk di sini</a>
+        </p>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p>© 2025 TerraWira. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
